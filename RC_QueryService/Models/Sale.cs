@@ -11,7 +11,7 @@ namespace RCARS.Interface.Models
         public decimal SoldPrice { get; set; }
 
         [Column("Customer")]
-        public int CustomerId { get; set; }
+        public Guid CustomerId { get; set; }
 
         [Column("Vehicle")]
         public string NumberPlate { get; set; }

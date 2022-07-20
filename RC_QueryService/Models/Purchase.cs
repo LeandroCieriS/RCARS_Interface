@@ -6,7 +6,7 @@ namespace RCARS.Interface.Models
     public class Purchase
     {
         [Key]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public DateTime Date { get; set; }
         public decimal PurchasePrice { get; set; }
 

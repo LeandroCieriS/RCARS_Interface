@@ -10,5 +10,6 @@ namespace RC_QueryService.Conection
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Purchase> Purchases { get; set; }
         public DbSet<Sale> Sales { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

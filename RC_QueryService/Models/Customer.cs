@@ -5,7 +5,7 @@ namespace RCARS.Interface.Models
     public class Customer
     {
         [Key]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Firstname { get; set; }
         public string LastName { get; set; }
         public string IdNumber { get; set; }
